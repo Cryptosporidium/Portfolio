@@ -1,0 +1,109 @@
+#bar {
+	position: fixed;
+	background-color: rgba(161, 0, 198);
+	top: 0;
+	height: 5%;
+	width: 100%;
+	color: white;
+	left: 0;
+}
+
+.left {
+	// position: absolute;
+	margin: 0;
+	margin-top: .5%;
+	margin-left: 1%;
+	float: left;
+}
+
+.right {
+	// position: absolute;
+	margin: 0;
+	margin-top: .5%;
+	margin-right: 1%;
+	// margin-left: 1%;
+	float: right;
+	right: 0;
+}
+
+button {
+	// position: absolute;
+	margin: 0;
+	margin-top: .4%;
+	margin-left: .75%;
+	float: right;
+}
+
+#small {
+	font-size: 6pt;
+	padding: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#med {
+	font-size: 8pt;
+	padding: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#large {
+	font-size: 12pt;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+	margin-right: 1%;
+}
+
+#content {
+	position: relative;
+	text-align: left;
+	width: 85%;
+	left: 5%;
+	background-color: white;
+	margin-top: 54px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border: 3px solid black;
+	
+}
+
+#content > p {
+	margin: 0;
+}
+
+body {
+	background-image: url("bgyellowcircle3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+a:link {
+	color: White;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+select {
+	// position: absolute;
+	left: 15%;
+	margin-left: 1%;
+	margin-top: .5%;
+	float: left;
+}

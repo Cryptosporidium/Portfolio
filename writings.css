@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Lazer84;
+	src: url(Lazer84.ttf);
+}
+
+@font-face {
+	font-family: Serpentine;
+	src: url(Serpentine.ttf);
+}
+
+body {
+	background-image: url("bgyellowcircle3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 100%;
+	// background: radial-gradient(circle farthest-corner at center, white, #ffeeaf);
+}
+
+h1 {
+	font-family: Lazer84;
+	text-align: center;
+	margin-top: 2.5%;
+}
+
+img {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin: 1%;
+}
+
+#ALTC {
+	width: 70%;
+	border: 3pt solid;
+	border-radius: 15px;
+	background-color: white;
+	padding: 1%;
+	margin-left: 15%;
+	overflow: hidden;
+}
+
+#info {
+	float: left;
+	width: 45%;
+}
+
+h3 {
+	margin: 0;
+	margin-top: 4%;
+}
+
+p {
+	// margin: 0;
+}

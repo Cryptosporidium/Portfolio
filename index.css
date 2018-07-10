@@ -1,0 +1,81 @@
+@font-face {
+	font-family: Lazer84;
+	src: url(Lazer84.ttf);
+}
+
+@font-face {
+	font-family: Serpentine;
+	src: url(Serpentine.ttf);
+}
+
+body {
+	background-image: url("bgyellowcircle3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 100%;
+	// background: radial-gradient(circle farthest-corner at center, white, #ffeeaf);
+}
+
+h1 {
+	top: 35%;
+	font-family: Lazer84;
+	// font-size: 60pt;
+	font-size: 4.25vw;
+}
+
+.txtcenter {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+h2 {
+	top: 45%;
+	font-family: Lazer84;
+	// font-size: 36pt;
+	font-size: 2.5vw;
+}
+
+.box {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 20%;
+	height: 19.5%;
+	border: 5px #a100c6;
+	border-style: ridge;
+	border-bottom-style: none;
+	background-color: rgba(161, 0, 198, .1);
+}
+
+p {
+	position: absolute;
+	top: 20%;
+	font-size: 2vw;
+	font-family: Serpentine;
+}
+
+#left {
+	left: 10%;
+}
+
+#center{
+	left: 40%;
+}
+
+#right{
+	right: 10%;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
