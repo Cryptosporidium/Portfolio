@@ -10,7 +10,6 @@
 
 body {
 	background-image: url("bgyellowcircle3.png");
-	background-repeat: no-repeat;
 	background-size: cover;
 	font-size: 100%;
 	// background: radial-gradient(circle farthest-corner at center, white, #ffeeaf);
@@ -23,15 +22,13 @@ h1 {
 	font-size: 2.5em;
 }
 
-img {
-	width: 50%;
+figure > a > img {
+	width: 100%;
 	height: auto;
-	float: left;
 	margin: 1%;
-	margin-right: 2%;
 }
 
-.story {
+.picture {
 	width: 70%;
 	border: 3pt solid;
 	border-radius: 15px;
@@ -42,14 +39,43 @@ img {
 	margin-bottom: 2.5%;
 }
 
-#info {
+.right > figure > a > img {
+	float: right;
+}
+
+.right > #info {
+	float: right;
+	width: 45%;
+	text-align: right;
+}
+
+.left > #info {
 	float: left;
 	width: 45%;
 }
 
-#extraInfo {
+#info {
+	margin-top: 7.5%;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.left > figure {
 	float: left;
-	margin-left: 4%;
+	width: 50%;
+	height: auto;
+	margin: 1%;
+	margin-right: 2%;
+}
+
+.right > figure {
+	float: right;
+	width: 50%;
+	height: auto;
+	margin: 1%;
+	margin-left: 2%;
 }
 
 h3 {
@@ -57,41 +83,9 @@ h3 {
 	margin-top: 4%;
 }
 
-.right {
-	padding-top: 1%;
-	width: 40%;
-	text-align: right;
-	font-size: 10pt;
-	padding-right: 1%;
-	padding-bottom: 1%;
-}
-
-.right > p {
-	margin: 0;
-}
-
-.left {
-	width:20%;
-	padding-left: 1%;
-}
-
-td {
-    background-color: #F0F0F0;
-	border-top: 1px solid #A9A9A9;
-}
-
-#last {
-	border-bottom: 1px solid #A9A9A9;
-}
 
 body > p {
 	margin: 0;
 	margin-left: 1%;
 	margin-top: 1%;
-}
-
-table {
-	width: 90%;
-	border-spacing: 0;
-	margin-left: 5%;
 }

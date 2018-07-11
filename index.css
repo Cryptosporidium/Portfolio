@@ -10,7 +10,7 @@
 
 body {
 	background-image: url("bgyellowcircle3.png");
-	background-repeat: no-repeat;
+	// background-repeat: no-repeat;
 	background-size: cover;
 	font-size: 100%;
 	// background: radial-gradient(circle farthest-corner at center, white, #ffeeaf);
@@ -41,7 +41,8 @@ h2 {
 	position: absolute;
 	text-align: center;
 	bottom: 0;
-	width: 20%;
+	// width: 20%;
+	width: 30%;
 	height: 19.5%;
 	border: 5px #a100c6;
 	border-style: ridge;
@@ -53,7 +54,8 @@ p {
 	position: absolute;
 	top: 20%;
 	font-size: 2vw;
-	font-family: Serpentine;
+	// font-family: Serpentine;
+	font-family: Lazer84;
 }
 
 #left {
@@ -61,7 +63,8 @@ p {
 }
 
 #center{
-	left: 40%;
+	// left: 40%;
+	right: 10%;
 }
 
 #right{

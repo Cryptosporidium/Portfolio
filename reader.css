@@ -59,8 +59,8 @@ button {
 #content {
 	position: relative;
 	text-align: left;
-	width: 85%;
-	left: 5%;
+	width: 65%;
+	left: 15%;
 	background-color: white;
 	margin-top: 54px;
 	padding-left: 2.5%;
@@ -106,4 +106,8 @@ select {
 	margin-left: 1%;
 	margin-top: .5%;
 	float: left;
+}
+
+#divider {
+	text-align: center;
 }
